@@ -1,2 +1,2 @@
-# Memory.dll
-For the memory of the client
+# Gma.System.MouseKeyHook.dll
+For binding, idk really know
