@@ -1,20 +1,20 @@
 using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
+using System.Security;
+using System.Security.Permissions;
 
 [assembly: CompilationRelaxations(8)]
 [assembly: RuntimeCompatibility(WrapNonExceptionThrows = true)]
-[assembly: Debuggable(DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
-[assembly: AssemblyTitle("ezOverLay")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("ezOverLay")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: ComVisible(false)]
-[assembly: Guid("95d8ad9b-0dd1-4203-aed4-a71da35e4b78")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations | DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints | DebuggableAttribute.DebuggingModes.EnableEditAndContinue)]
+[assembly: AssemblyCompany("New Age Software LLC")]
+[assembly: AssemblyConfiguration("Debug")]
+[assembly: AssemblyDescription("Read and Write to process memory. Make PC cheat trainers easily!")]
+[assembly: AssemblyFileVersion("1.2.21.0")]
+[assembly: AssemblyInformationalVersion("1.2.21")]
+[assembly: AssemblyProduct("Memory.dll")]
+[assembly: AssemblyTitle("Memory")]
+[assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
+[assembly: AssemblyVersion("1.2.21.0")]
+[module: UnverifiableCode]

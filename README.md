@@ -1,2 +1,2 @@
-# EzOverlay.dll
-One of the compents of the client
+# Memory.dll
+For the memory of the client
