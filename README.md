@@ -1,2 +1,2 @@
-# Memory.dll
-For the memory of the client
+# Hollow.Trainer.Framework.dll
+idk why this exists but yes
