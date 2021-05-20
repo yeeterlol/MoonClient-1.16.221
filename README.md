@@ -1,5 +1,5 @@
 # moon-src
-Here is source to a client which is called Moon Client
+Here is basic source to Moon Client
 # Version
 This is a 1.16.221 client and might be the first client ever for something forgeting to put obsfucation.
 I dumped this from https://www.decompiler.com/ since I'm lazy, if you can decompile better than me, send a pull request 
